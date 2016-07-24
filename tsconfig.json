@@ -1,0 +1,19 @@
+{
+     "compilerOptions":
+      {
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "target": "es5",
+        "outFile": "main.js",
+        "sourceMap": true
+    },
+    "files":
+    [
+        "region.ts",
+        "product.ts",
+        "data.ts",
+        "mainpage.ts",        
+        "main.ts"
+    ]
+}

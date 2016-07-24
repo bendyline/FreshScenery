@@ -1,0 +1,420 @@
+#bannerImage
+{
+    background-image: url('http://endpoint915727.azureedge.net/res/floatac.jpg');
+    background-color:#FCFCFF;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-position: center center;
+    margin-bottom: 0px;
+    height:60vh;
+}
+
+
+#taglineJumbo
+{
+    background: linear-gradient(to bottom, #FCFCFF,  #C4DFFF);
+    padding-top:100px;
+    padding-bottom: 100px;
+    margin-bottom:0px;
+}
+
+.timeline-Header
+{
+    display:none;
+}
+
+.productname
+{
+    font-size:40pt;
+    line-height: 1;
+    margin-bottom:0px;
+}
+
+h2
+{    
+    color:#204E79;
+}
+
+h2.tagline
+{
+    margin-top:0px;
+    font-family: "Pacifico";
+    font-size: 60pt;
+    color:#204E79;
+    line-height: 1.6;
+}
+
+h4.tagline
+{
+    margin-top:0px;
+    font-family: "Pacifico";
+    font-size: 24pt;
+    color:#204E79;
+    line-height: 1.3;
+}
+
+.valueprop
+{
+    text-align: justify;    
+    color:#204E79;
+    font-size:12pt !important;
+}
+
+body
+{
+    font-family: 'Cardo';
+    font-size:14pt;
+}
+
+#selectableAreaOuter
+{
+    width:100%;
+    text-align: center;
+    display: table;
+}
+
+
+.faqQuestion
+{
+    font-weight: bold;
+    padding-top:30px;
+}
+#selectableAreaOuter
+{
+    width:100%;
+    text-align: center;
+    display: table;
+}
+
+.selectableAreaOuterBin
+{
+    display:table-row;
+}
+ 
+#selectableAreaBin
+{
+    width: 420px;
+    text-align: left;
+    display:table-cell;
+    vertical-align: top;
+    padding-bottom: 80px;
+    padding-right:20px;
+}
+
+.selectableArea
+{
+    width:420px;
+    text-align: left;
+    padding-bottom: 40px;
+}
+
+.areaTitle
+{
+    font-size:20pt;
+    height:60px;
+    padding-top:12px;
+    margin-bottom:20px;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size:48px;
+}
+
+.logoLine
+{
+    font-size:40pt;
+    padding-top: 40px;
+    padding-bottom:40px;        
+    color:#204E79;
+    font-family: Pacifico;
+}
+
+.areaDownload
+{
+    margin-bottom:16px;
+}
+
+.areaDownloadTitle
+{
+    font-size: 12pt;
+    margin-top: 20px;
+    cursor: default;
+}
+
+.areaDownloadTitle:hover
+{
+    text-decoration: underline;
+}
+
+.areaDownloadSubTitle
+{
+    font-size: 10pt;
+    font-style: italic;
+}
+
+.screenshotCaption
+{
+    font-size:14pt;
+}
+
+.screenshotCaptionCredit
+{
+    font-size:9pt;
+    font-style: italic;
+}
+
+.screenshotImageActive
+{
+    opacity: 1;
+	transition: opacity 2s;
+}
+
+.screenshotImageInactive
+{
+    opacity: 0;
+	transition: opacity 2s;
+}
+
+#copyrightLine
+{
+    text-align: left;
+    padding-left:40px;
+    font-size:10pt;
+    padding-bottom:5px;
+}
+
+.aboutHeader
+{
+    padding-bottom:20px;
+    padding-top:40px;
+}
+.contentArea
+{
+    width:600px;
+    text-align: justify;
+}
+
+#aboutLine
+{
+    text-align: left;
+    font-size:10pt;
+    padding-left:30px;
+    padding-bottom:25px;
+}
+
+#copyrightLineAbout
+{
+    text-align: left;
+    padding-left:100px;
+    font-size:10pt;
+    padding-top:100px;
+    padding-bottom:5px;
+}
+
+.compareLabel
+{
+    padding:10px;
+    position:relative;
+    top: 9px;
+    background-color:rgba(64,64,64,0.4);
+    width:150px;
+}
+
+.compareImage
+{
+    max-width: calc(100vw - 610px);
+    max-height: 360px;
+    width:100%;
+    height:100%;
+    background-color: #D0D0D0;
+    vertical-align: top;
+    text-align: right;
+    font-size: 14pt;
+    color: white;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+#compareArea
+{
+    height:900px;
+}
+
+.compareImageArea
+{
+    height:360px;
+}
+
+.screenshotImage
+{
+    max-width: calc(100vw - 620px);
+    max-height: calc(100vh - 50px);
+    width:100%;
+    height:100%;
+    background-color: #D0D0D0;
+    vertical-align: bottom;
+    background-size:cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.updatesAreaOuter
+{
+    display: table;
+    padding-top:80px;
+}
+
+.updatesArea
+{
+    display: table-row;
+}
+
+.sideBySideBin
+{
+    width: calc(100vw - 570px);
+    padding-left:40px;
+    display: table-cell;
+}
+
+.twitterBin
+{
+    width:420px;
+    padding-left:75px;
+    display: table-cell;
+    vertical-align: top;
+}
+
+#infoArea
+{
+    padding-left:30px;
+}
+
+#compareCaption
+{
+	border-right:solid 1px gray;
+    border-bottom:solid 1px gray;
+    border-left:solid 1px gray;
+}
+
+#compareCaptionArea
+{
+    padding-bottom:120px;
+    
+    vertical-align: bottom;
+}
+
+.previewAreaBin
+{
+    width: calc(100vw - 570px);
+    text-align: left;
+    display:table-cell;
+    padding-left:0px;
+}
+
+#screenshotArea
+{
+    width: calc(100vw - 610px);
+    height: calc(100vh - 40px);
+    border: solid 1px gray;
+    border-radius: 3px;
+    vertical-align: top;
+    text-align: left;
+    padding-left:00px;
+    padding-right:20px;
+    padding:4px;
+    margin-left:40px;
+}
+
+.screenshotCaptionArea
+{
+    background-color: rgba(120,120,120,0.6);
+    padding:10px;    
+    vertical-align: bottom;
+    width: 100%;
+    overflow: hidden;
+    display: inline-block;
+    color: white;   
+}
+
+@media screen and (max-width: 900px) 
+{
+    #screenshotArea
+    {   
+        width: calc(100vw - 110px);
+        height: calc(80vh);
+    }
+
+    .previewAreaBin
+    {
+        width: calc(100vw - 80px);
+        display: block;
+    }
+
+    .screenshotImage
+    {
+        max-width: calc(100vw - 116px);
+        max-height: calc(80vh - 10px);
+    }
+
+    .compareImage
+    {
+        max-width: calc(100vw - 116px);
+        max-height: calc(80vh - 10px);
+    }
+
+    #selectableAreaBin
+    {
+        display: block;
+        padding-left:40px;
+        padding-top:40px;
+    }
+
+    #selectableAreaOuterBin
+    {
+        display: block;
+    }
+
+    #selectableAreaOuter
+    {
+        display: block;
+    }
+    
+    .updatesAreaOuter
+    {
+        display: block;
+    }
+
+    .updatesArea
+    {
+        display: block;
+    }
+    
+    .sideBySideBin
+    {
+        width: calc(100vw - 80px);
+        display: block;
+    }
+
+    .twitterBin
+    {
+        display: block;        
+        padding-left:40px;
+    }
+
+    #compareCaptionArea
+    {
+        display: none;
+    }
+
+    #infoArea
+    {
+        padding-left:0px;
+    }
+
+    #aboutLine
+    {
+        padding-left:0px;
+    }
+}

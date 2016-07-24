@@ -1,6 +1,201 @@
-<!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World</h1>
+
+<head>
+    <link rel="stylesheet" href="bs/css/bootstrap.min.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico|Cardo:400,400i' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="main.css" />
+</head>
+
+<body onload="init()">
+    <div class="jumbotron" id="bannerImage">&#160;
+    </div>
+    <div class="jumbotron" id="taglineJumbo">
+      <div class="container">
+        <h2 class="tagline">fly the beautiful world</h2>
+        <p class="valueprop">Fresh Scenery Autogen adds fresh, accurate scenery and structures to your photo-real satellite/aerial imagery for Flight Simulator X, Flight Simulator X Steam Edition, and Prepar3D&trade;.  </p>
+        <p class="valueprop">Sourced from multiple high-resolution data sources and always-up-to-date OpenStreetMaps data, you'll get the most realistic large-scale simulator experience possible. Fresh Scenery products are also completely free. Enjoy!</p>
+      </div>
+    </div>
+
+    <div class="jumbotron">
+
+        <div class="updatesAreaOuter">        
+            <div class="updatesArea">
+
+	            <div class="sideBySideBin">
+                    <div id="compareArea">
+                        <div class="compareImageArea">
+
+                            <div id="beforeCompareImageA" class="compareImage">
+                                <span class="compareLabel">Before</span>
+                            </div>
+    	                    <div id="beforeCompareImageB" class="compareImage">
+                                <span class="compareLabel">Before</span>
+                            </div>
+                        </div>
+
+                        <div class="compareImageArea">
+                            <div id="afterCompareImageA" class="compareImage">
+                                <span class="compareLabel">After</span>
+                            </div>
+	                        <div id="afterCompareImageB" class="compareImage">
+                                <span class="compareLabel">After</span>
+                            </div>
+                        </div>
+                                            <div id="compareCaptionArea">
+                        <div id="compareCaption">
+                        </div>
+                    </div>
+
+
+                    </div>
+
+                </div>
+                <div class="twitterBin">
+	                <div id="aboutLine">
+                        <span><a href="#download">download</a></span>
+                        <span>&#160;&#160;&bull;&#160;&#160;&#160;<a href="/about/">about and faq</a></span>
+                    	<span>&#160;&#160;&bull;&#160;&#160;&#160;<a href="javascript:launchSupportEmail()">support</a></span>    
+	                </div>
+                    <div id="infoArea">
+
+    	                <h4 class="tagline">latest updates</h4>
+                        <a class="twitter-timeline" data-chrome="noheader nofooter noborders" data-width="420" data-theme="light" href="https://twitter.com/freshscenery">Recent Updates / @freshscenery</a>
+                    </div>
+                    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="selectableAreaOuter">
+        
+        <div class="selectableAreaOuterBin">
+
+	        <div class="previewAreaBin">
+                <div id="screenshotArea">
+                        <div id="screenshotImageA" class="screenshotImage"></div>
+                        <div id="screenshotImageB" class="screenshotImage"></div>
+                </div>
+	        </div>
+            <div id="selectableAreaBin">
+                
+                <a name="download">
+                    <h4 class="tagline">download</h4>
+                </a>
+
+                <div id="az" class="selectableArea">
+                    <div class="areaTitle" style="background-image: url(resources/az.png)">Arizona</div>
+                    <div class="areaDownload">
+                        <a class="areaDownloadTitle" href="https://endpoint915528.azureedge.net/freshscenery/10720/fs_az_autogen.msi">Arizona Autogen Supplement - July, 2016</a>
+                        <div class="areaDownloadSubTitle">for MegaSceneryEarth Arizona 2.0. 615mb.</div>
+                    </div>
+                    <div class="areaDownload">
+	                    <a class="areaDownloadTitle" href="https://endpoint915528.azureedge.net/freshscenery/10720/fs_phoenix_autogen.msi">Phoenix Autogen Supplement - July, 2016</a>
+                        <div class="areaDownloadSubTitle">for MegaSceneryEarth Phoenix UltraRes. 68mb.</div>
+	                </div>
+                </div>
+
+                <div id="de" class="selectableArea">
+                    <div class="areaTitle" style="background-image: url(resources/de.png)">Delaware</div>
+                    <div class="areaDownload">
+                        <a class="areaDownloadTitle" href="https://endpoint915528.azureedge.net/freshscenery/10720/fs_de_autogen.msi">Delaware Autogen Supplement - July, 2016</a>
+                        <div class="areaDownloadSubTitle">for MegaSceneryEarth Delaware 2.0 & MegaSceneryEarth Delaware 4X. 25mb.</div>
+                    </div>
+                </div>
+
+	            <div id="ca" class="selectableArea">
+                    <div class="areaTitle" style="background-image: url(resources/ca.png)">California</div>
+                    <div class="areaDownload">
+                        <a class="areaDownloadTitle" href="https://endpoint915528.azureedge.net/freshscenery/10720/fs_canorth_autogen.msi">Northern California Autogen Supplement - July, 2016</a>
+                        <div class="areaDownloadSubTitle">for MegaSceneryEarth California North 2.0. 516mb.</div>
+                    </div>
+                    <div class="areaDownload">
+                        <a class="areaDownloadTitle" href="https://endpoint915528.azureedge.net/freshscenery/10720/fs_cacentral_autogen.msi">Central California Autogen Supplement - July, 2016</a>
+                        <div class="areaDownloadSubTitle">for MegaSceneryEarth California Central 2.0. 477mb.</div>
+                    </div>
+                    <div class="areaDownload">
+                        <a class="areaDownloadTitle" href="https://endpoint915528.azureedge.net/freshscenery/10720/fs_casouth_autogen.msi">Southern California Autogen Supplement - July, 2016</a>
+                        <div class="areaDownloadSubTitle">for MegaSceneryEarth California South 2.0. 359mb.</div>
+                    </div>
+                    <div class="areaDownload">
+	                    <a class="areaDownloadTitle" href="https://endpoint915528.azureedge.net/freshscenery/10720/fs_sanfrancisco_autogen.msi">San Francisco Autogen Supplement - July, 2016</a>
+                        <div class="areaDownloadSubTitle">for MegaSceneryEarth San Francisco UltraRes. 137mb.</div>
+	                </div>
+                </div>
+
+
+                <div id="nj" class="selectableArea">
+                    <div class="areaTitle" style="background-image: url(resources/nj.png)">New Jersey</div>
+                    <div class="areaDownload">
+                        <a class="areaDownloadTitle" href="https://endpoint915528.azureedge.net/freshscenery/10720/fs_nj_autogen.msi">New Jersey Autogen Supplement - July, 2016</a>
+                        <div class="areaDownloadSubTitle">for MegaSceneryEarth New Jersey 2.0. 84mb.</div>
+                    </div>
+                </div>
+
+	            <div id="or" class="selectableArea">
+                    <div class="areaTitle" style="background-image: url(resources/or.png)">Oregon</div>
+                    <div class="areaDownload">
+                        <a class="areaDownloadTitle" href="https://endpoint915528.azureedge.net/freshscenery/10720/fs_or_autogen.msi">Oregon Autogen Supplement - July, 2016</a>
+                        <div class="areaDownloadSubTitle">for MegaSceneryEarth Oregon 2.0. 766mb.</div>
+                    </div>
+                </div>
+
+                <div id="wa" class="selectableArea">
+                    <div class="areaTitle" style="background-image: url(resources/wa.png)">Washington</div>
+                    <div class="areaDownload">
+                        <a class="areaDownloadTitle" href="https://endpoint915528.azureedge.net/freshscenery/10720/fs_wa_autogen.msi">Washington Autogen Supplement - July, 2016</a>
+                        <div class="areaDownloadSubTitle">for MegaSceneryEarth Washington 2.0. 563mb.</div>
+                    </div>
+                    <div class="areaDownload">
+	                    <a class="areaDownloadTitle" href="https://endpoint915528.azureedge.net/freshscenery/10720/fs_seattle_autogen.msi">Seattle Autogen Supplement - July, 2016</a>
+                        <div class="areaDownloadSubTitle">for MegaSceneryEarth Seattle UltraRes. 108mb.</div>
+	                </div>
+                </div>
+
+                <hr/>
+
+	            <div id="uk" class="selectableArea">
+                    <div class="areaTitle" style="background-image: url(resources/england.png)">United Kingdom</div>
+                    <div class="areaDownload">
+                        <a class="areaDownloadTitle" href="https://endpoint915528.azureedge.net/freshscenery/10720/fs_englandsoutheast_autogen.msi">South Eastern England Autogen Supplement - July, 2016</a>
+                        <div class="areaDownloadSubTitle">for JustFlight Real Scenery Vol 1 (SE England). 34mb.</div>
+                    </div>
+                    <div class="areaDownload">
+                        <a class="areaDownloadTitle" href="https://endpoint915528.azureedge.net/freshscenery/10720/fs_englandcentral_autogen.msi">Central and South England Autogen Supplement - July, 2016</a>
+                        <div class="areaDownloadSubTitle">for JustFlight Real Scenery Vol 2 (C & S England). 53mb.</div>
+	                </div>                    
+                    <div class="areaDownload">
+                        <a class="areaDownloadTitle" href="https://endpoint915528.azureedge.net/freshscenery/10720/fs_englandsouthwest_autogen.msi">Wales and South Western England Autogen Supplement - July, 2016</a>
+                        <div class="areaDownloadSubTitle">for JustFlight Real Scenery Vol 3 (Wales & SW England). 43mb.</div>
+	                </div>
+                    <div class="areaDownload">
+                        <a class="areaDownloadTitle" href="https://endpoint915528.azureedge.net/freshscenery/10720/fs_englandnorth_autogen.msi">Northern England Autogen Supplement - July, 2016</a>
+                        <div class="areaDownloadSubTitle">for JustFlight Real Scenery Vol 4 (Northern England). 37mb</div>
+	                </div>
+                </div>
+            </div>
+        </div>
+       </div>
+        <div id="copyrightLine">
+            <span>Copyright 2016 <a href="http://www.bendyline.com">Bendyline</a></span>
+            <span>&#160;&bull;&#160;&#160;&#160;<a href="http://www.bendyline.com/terms">Terms of Use</a></span>
+            <span>&#160;&bull;&#160;&#160;&#160;<a href="http://www.bendyline.com/privacy">Privacy</a></span>
+            <span>&#160;&bull;&#160;&#160;&#160;<a href="javascript:launchSupportEmail()">Support</a></span>    
+	    </div>
+    
+<!--    <script src="bs/js/bootstrap.min.js"></script> -->
+    <script src="main.js"></script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-80936701-1', 'auto');
+  ga('send', 'pageview');
+
+    </script>
 </body>
 </html>

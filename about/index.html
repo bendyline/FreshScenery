@@ -1,0 +1,122 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="/bs/css/bootstrap.min.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico|Cardo:400,400i' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/main.css" />
+</head>
+
+<body>
+    <div class="jumbotron" id="bannerImage">&#160;
+    </div>
+
+    <div class="container">
+        <a href="/">
+	        <h4 class="logoLine">Fresh Scenery</h4>
+        </a>
+	    <h4 class="aboutHeader">About</h4>
+        <p class="contentArea">
+            The combination of Flight Simulators and photorealistic scenery -- especially in virtual reality with an Oculus Rift
+            and FlyInside -- can be an amazing experience. Being able to jet through your nearby cities and mountain valleys can be exhilirating! 
+            But something is still missing: photoreal scenery products for Flight Simulator don't typically come with detailed 3D trees and buildings ("autogen").
+            The whole world is pretty flat.
+        </p>
+        <p class="contentArea">
+            Fortunately, the data exists for adding more detail. Governments produce high quality land-cover data to let us know where natural
+            features, such as trees and rivers, are.  Open Street Maps is a wikipedia-like community effort to assemble geospatial
+            information around the world, including the location of buildings, rivers, and other features.  If you put these two together, you can give Flight Simulator/Prepar3D all the information
+            it needs to place buildings and trees accurately.  This is what Fresh Scenery Autogen Supplemenets provide. 
+            <b>With Fresh Scenery, if you see forests or buildings, it's because there really are trees or buildings in that area</b>, 
+            (small errors in the source data nonwithstanding).  
+        </p>
+
+	    <h4 class="aboutHeader">FAQ</h4>
+
+        <p class="contentArea">
+            <p class="contentArea faqQuestion">Will this impact my simulator's performance?</p>
+            <p class="contentArea">Yes.  However, it's not as dramatic as you would think.  Normal Autogen in Flight Simulator will place thousands
+                of trees and buildings -- just in random locations. Fresh Scenery helps Flight Simulator place buildings and trees
+                in more accurate positions, but the net counts of trees and buildings is not generally increased.  In most
+                locations it's still possible to get high framerates on higher-end machines, and you can always adjust your simulator's Autogen
+                sliders to taste.
+            </p>
+            <p class="contentArea">
+                Do note, however, that some cities such as London and Portland, Oregon, have a huge number of buildings modeled within them
+                (essentially, every real world structure) and this may slow your simulator down above and beyond normal Autogen impact.  If you experience these slow downs,
+                we recommend reducing the Autogen Building density slider in the Settings panel of your simulator.  
+            </p> 
+            <p class="contentArea faqQuestion">Why do some buildings look hollowed out?</p>
+            <p class="contentArea">Most buildings are more complicated than simple four-sided structures -- they are many-sided polygons.  Flight Simulator and Prepar3D
+                has support for representing polygon buildings, but only if those buildings also have an interior courtyard.  As scenery designers, we're faced with a choice:
+                represent polygon buildings with a simple four-sided building, or a full polygon with a courtyard.  Currently, we've chosen to use the latter
+                to represent these buildings.  But we're working to see if we can minimize the visual impact of this in future iterations. 
+            </p>
+            <p class="contentArea faqQuestion">Why do some buildings look out of place? Buildings in my hometown don't look like that!</p>
+            <p class="contentArea">Flight Simulator and Prepar3D have a limited library of buildings available for use for Autogen.  These building libraries need to work well 
+                internationally, and so therefore reflect different types of buildings across the world.  For the sake of diversity, Fresh Scenery uses as many of these
+                buildings as possible.  In future builds, we'll look to do more to have buildings better reflect the location they are in.</p>
+            <p class="contentArea faqQuestion">Can I use this product by itself?</p>
+            <p class="contentArea">No. Fresh Scenery is designed to complement other third party photoreal scenery products, like <a href="http://www.megasceneryearth.com">MegaSceneryEarth</a> or <a href="http://www.justflight.com/category/flight-sim-add-ons/scenery-and-airports/vfr-real-scenery">JustFlight VFR Real Scenery</a>, which don't come with Autogen by themselves.  It's a bummer that these products aren't inexpensive or free, but acquiring and offering high quality satellite imagery isn't cheap for these providers.</p>
+            <p class="contentArea faqQuestion">Why do you not have my area?</p>
+            <p class="contentArea">We're looking to add more areas.  Please <a href="javascript:launchQuestionEmail()">drop us a line</a> if you have a request.
+            </p>
+        </p>
+
+	    <h4 class="aboutHeader">Sources</h4>
+        <p class="contentArea">
+            Fresh Scenery Autogen is made possible via public domain government data sources and open data contributions. For anyone involved in the creation of 
+            these wonderful data sources, including taxpayers of the respective countries, thank you!
+        </p>
+    <ol class="contentArea">
+        <li>Contains information from OpenStreetMap.</a></li>
+        
+        <li>United States data products use:
+            <ol type="a">
+                <li>United States Geological Survey National Landcover Database (2011).   
+
+                Homer, C.G., Dewitz, J.A., Yang, L., Jin, S., Danielson, P., Xian, G., Coulston, J., Herold, N.D., Wickham, J.D., and 
+                Megown, K., 2015, <a href="http://bit.ly/1K7WjO3">Completion of the 2011 National Land Cover Database for the conterminous 
+                United States-Representing a decade of land cover change information</a>. Photogrammetric Engineering and Remote Sensing, v. 81, no. 5, p. 345-354 
+                </li>
+                <li><a href="http://nhd.usgs.gov/index.html">United States Geological Survey National Hydrography Dataset</a>.</li>
+                		<li><a href="http://landcover.usgs.gov/global_climatology.php">0.5km MODIS-based Global Land Cover Climatology.</a> Broxton, P.D., Zeng, X., Sulla-Menashe, D., Troch, P.A., 2014a: A Global Land Cover Climatology Using MODIS Data. J. Appl. Meteor. Climatol., 53, 1593-1605. doi: http://dx.doi.org/10.1175/JAMC-D-13-0270.1</li>	
+            </ol>
+        </li>
+
+        <li>European data products use:
+            <ol type="a">
+                <li><a href="http://www.eea.europa.eu/data-and-maps/data/ds_resolveuid/47f0ee5aca2543c7977217cdc13bb949">CORINE Land Cover (2006) Seamless Vector Data Version 13</a>. Copyright European Environment Agency (EEA).
+            </ol>
+        </li>
+    </ol>
+<p>
+    <p>&#160;</p>
+    <p>&#160;</p>
+    <p>&#160;</p>
+    Microsoft Flight Simulator X is a copyrighted trademark of Microsoft Corporation. PREPAR3D&#0153; is a registered trademark of Lockheed Martin Corporation.
+    MegaScenery and MegaSceneryEarth are trademarks of PC Aviator Inc. Microsoft, PC Aviator, JustFlight and Lockheed Martin have no affiliation with this product. 
+    </p>
+    <p>&#160;</p>
+    <p>&#160;</p>
+    <p>&#160;</p>
+    <p>&#160;</p>
+
+
+
+        <a href="/">
+	        <p>Back to Home Page</p>
+        </a>
+
+    </div>
+
+	<div id="copyrightLineAbout">
+    	<span>Copyright 2016 <a href="http://www.bendyline.com">Bendyline</a></span>
+        <span>&#160;&bull;&#160;&#160;&#160;<a href="http://www.bendyline.com/terms">Terms of Use</a></span>
+        <span>&#160;&bull;&#160;&#160;&#160;<a href="http://www.bendyline.com/privacy">Privacy</a></span>
+        <span>&#160;&bull;&#160;&#160;&#160;<a href="javascript:launchSupportEmail()">Support</a></span>    
+	</div>
+    
+<!--    <script src="bs/js/bootstrap.min.js"></script> -->
+    <script src="/main.js"></script>
+</body>
+</html>
