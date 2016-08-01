@@ -346,6 +346,230 @@ namespace FreshScenery
             "type": 0,
             "caption": "The trademark snoot nose of the Hun in a rainstorm on the Oregon coast",
             "credits": "Milviz F-100 over MegaSceneryEarth Oregon + Fresh Scenery Oregon Autogen, in Prepar3D + Oculus Rift + FlyInside."
+        },
+        {
+            "id": "OR.A7Bank",
+            "region": "or",
+            "type": 0,
+            "caption": "A Corsair banks over the Willamette River, south of Portland",
+            "credits": "RAZBAM A-7 over MegaSceneryEarth Oregon + Fresh Scenery Oregon Autogen, in Prepar3D + Oculus Rift + FlyInside."
+        },
+        {
+            "id": "WA.MauleWhidbeyOLF",
+            "region": "wa",
+            "type": 0,
+            "caption": "A Maule comes in for a probably-unauthorized landing on the Naval Outlying Field near Coupeville, Washington",
+            "credits": "Milviz F-100 over MegaSceneryEarth Washington + Fresh Scenery Washington Autogen, in Prepar3D + Oculus Rift + FlyInside. Clouds by ActiveSky 2016."
+        },
+        {
+            "id": "WA.UH1NorthWhidbey",
+            "region": "wa",
+            "type": 0,
+            "caption": "Hovering just undert the cloud layer near north Whidbey Island",
+            "credits": "Nemeth Designs UH-1 over MegaSceneryEarth Washington + Fresh Scenery Washington Autogen, in Prepar3D + Oculus Rift + FlyInside. Clouds by ActiveSky 2016."
+        },
+        {
+            "id": "AZ.A4Canyon",
+            "region": "az",
+            "type": 0,
+            "caption": "Tucking into a canyon at dusk, north of Phoenix",
+            "credits": "Virtavia A-4 over MegaSceneryEarth Arizona + Fresh Scenery Arizona Autogen, in Prepar3D + Oculus Rift + FlyInside. Clouds by ActiveSky 2016."
+        },
+        {
+            "id": "AZ.A4Flag",
+            "region": "az",
+            "type": 0,
+            "caption": "Skyhawk at Dusk, near Flagstaff, Arizona",
+            "credits": "Virtavia A-4 over MegaSceneryEarth Arizona + Fresh Scenery Arizona Autogen, in Prepar3D + Oculus Rift + FlyInside. Clouds by ActiveSky 2016."
+        },
+        {
+            "id": "AZ.AV8BYuma",
+            "region": "az",
+            "type": 0,
+            "caption": "VIFFing in a Harrier, near Marine Corps Air Station Yuma, Arizona",
+            "credits": "RAZBAM AV-8B over MegaSceneryEarth Arizona + Fresh Scenery Arizona Autogen, in Prepar3D + Oculus Rift + FlyInside."
+        },
+        {
+            "id": "AZ.AV8BRiver",
+            "region": "az",
+            "type": 0,
+            "caption": "Low and slow over the riverside brush near Yuma, Arizona",
+            "credits": "RAZBAM AV-8B over MegaSceneryEarth Arizona + Fresh Scenery Arizona Autogen, in Prepar3D + Oculus Rift + FlyInside."
+        },
+        {
+            "id": "OR.UH1PortlandA",
+            "region": "or",
+            "type": 0,
+            "caption": "A Huey over the Portland hillsides",
+            "credits": "Nemeth Designs UH-1 over MegaSceneryEarth Oregon + Fresh Scenery Oregon Autogen, in Prepar3D + Oculus Rift + FlyInside. Clouds by ActiveSky 2016."
+        },
+        {
+            "id": "OR.UH1Portland",
+            "region": "or",
+            "type": 0,
+            "caption": "Flying over the Willamette river",
+            "credits": "Nemeth Designs UH-1 over MegaSceneryEarth Oregon + Fresh Scenery Oregon Autogen, in Prepar3D + Oculus Rift + FlyInside. Clouds by ActiveSky 2016."
+        },
+        {
+            "id": "OR.UH1Beaverton",
+            "region": "or",
+            "type": 0,
+            "caption": "Fisheye from the tail of a Huey near Tigard, Oregon",
+            "credits": "Nemeth Designs UH-1s over MegaSceneryEarth Oregon + Fresh Scenery Oregon Autogen, in Prepar3D + Oculus Rift + FlyInside. Clouds by ActiveSky 2016."
+        },
+        {
+            "id": "OR.F18Hood",
+            "region": "or",
+            "type": 0,
+            "caption": "Diving down from Mt. Hood in an F/A-18",
+            "credits": "F/A-18 over MegaSceneryEarth Oregon + Fresh Scenery Oregon Autogen, in Prepar3D + Oculus Rift + FlyInside. Clouds by ActiveSky 2016."
+        },
+        {
+            "id": "UK.TornTowns",
+            "region": "uk",
+            "type": 0,
+            "caption": "Nap of the earth over British Towns",
+            "credits": "JustFlight Tornado over JustFlight VFR Real Scenery + Fresh Scenery England Autogen, in Prepar3D + Oculus Rift + FlyInside. Clouds by ActiveSky 2016."
+        },
+        {
+            "id": "UK.ConnTowns",
+            "region": "uk",
+            "type": 0,
+            "caption": "Slow ascent in a Lockheed Constellation",
+            "credits": "Lockheed Constellation over JustFlight VFR Real Scenery + Fresh Scenery England Autogen, in Prepar3D + Oculus Rift + FlyInside. Clouds by ActiveSky 2016."
+        },
+        {
+            "id": "UK.ConnTown",
+            "region": "uk",
+            "type": 0,
+            "caption": "Slow bank in a Lockheed Constellation",
+            "credits": "Lockheed Constellation over JustFlight VFR Real Scenery + Fresh Scenery England Autogen, in Prepar3D + Oculus Rift + FlyInside. Clouds by ActiveSky 2016."
+        },
+        {
+            "id": "WA.F4Sound",
+            "region": "wa",
+            "type": 0,
+            "caption": "An F-4 accelerates from Burien and into the Puget Sound",
+            "credits": "Milviz F-4 over MegaSceneryEarth Washington + Fresh Scenery Washington Autogen, in Prepar3D + Oculus Rift + FlyInside. Clouds by ActiveSky 2016."
+        },
+        {
+            "id": "WA.S3Countryside",
+            "region": "wa",
+            "type": 0,
+            "caption": "Scenic cruise in an S-3 Viking",
+            "credits": "IndiaFoxtEcho S-3 Viking over MegaSceneryEarth Washington + Fresh Scenery Washington Autogen, in Prepar3D + Oculus Rift + FlyInside. Clouds by ActiveSky 2016."
+        },
+        {
+            "id": "WA.S3Hills",
+            "region": "wa",
+            "type": 0,
+            "caption": "S-3 Viking in Washington valleys",
+            "credits": "IndiaFoxtEcho S-3 Viking over MegaSceneryEarth Washington + Fresh Scenery Washington Autogen, in Prepar3D + Oculus Rift + FlyInside. Clouds by ActiveSky 2016."
+        },
+        {
+            "id": "WA.S3MistyHills",
+            "region": "wa",
+            "type": 0,
+            "caption": "Misty distant Washington mountains",
+            "credits": "IndiaFoxtEcho S-3 Viking over MegaSceneryEarth Washington + Fresh Scenery Washington Autogen, in Prepar3D + Oculus Rift + FlyInside. Clouds by ActiveSky 2016."
+        },
+        {
+            "id": "WA.S3Sammamish",
+            "region": "wa",
+            "type": 0,
+            "caption": "Looking back over an S-3 Viking and its TF-34 engines, over suburban south Bellevue/Newcastle",
+            "credits": "IndiaFoxtEcho S-3 Viking over MegaSceneryEarth Washington + Fresh Scenery Washington Autogen, in Prepar3D + Oculus Rift + FlyInside. Clouds by ActiveSky 2016."
+        },
+        {
+            "id": "FL.T45Thunder",
+            "region": "fl",
+            "type": 0,
+            "caption": "A T-45 Goshawk flies into a thunderstorm over south Florida",
+            "credits": "IndiaFoxtEcho T-45 Goshawk over MegaSceneryEarth Florida + Fresh Scenery Florida Autogen, in Prepar3D + Oculus Rift + FlyInside. Clouds by ActiveSky 2016."
+        },
+        {
+            "id": "FL.HawkPeninsulas",
+            "region": "fl",
+            "type": 0,
+            "caption": "A T-45 Goshawk over the peninsulas of south Florida, near Key West",
+            "credits": "IndiaFoxtEcho T-45 Goshawk over MegaSceneryEarth Florida + Fresh Scenery Florida Autogen, in Prepar3D + Oculus Rift + FlyInside. Clouds by ActiveSky 2016."
+        },
+        {
+            "id": "NL.Beechfields",
+            "region": "nl",
+            "type": 0,
+            "caption": "A Beechcraft Bonanza flies into a thunderstorm over south Florida",
+            "credits": "Carenado Bonanza over MegaSceneryEarth Netherlands + Fresh Scenery Netherlands Autogen, in Prepar3D + Oculus Rift + FlyInside. Clouds by ActiveSky 2016."
+        },
+        {
+            "id": "FL.S3Back",
+            "region": "fl",
+            "type": 0,
+            "caption": "Looking back over an S-3 in suburban Orlando",
+            "credits": "IndiaFoxtEcho S-3 Viking over MegaSceneryEarth Florida + Fresh Scenery Florida Autogen, in Prepar3D + Oculus Rift + FlyInside. Clouds by ActiveSky 2016."
+        },
+        {
+            "id": "FL.S3Assembly",
+            "region": "fl",
+            "type": 0,
+            "caption": "A S-3 passes by a rocket assembly facility",
+            "credits": "IndiaFoxtEcho S-3 Viking over MegaSceneryEarth Florida + Fresh Scenery Florida Autogen, in Prepar3D + Oculus Rift + FlyInside. Clouds by ActiveSky 2016."
+        },
+        {
+            "id": "FL.S3Bank",
+            "region": "fl",
+            "type": 0,
+            "caption": "A S-3 turns in a bank near the Space Shuttle at Cape Canaveral",
+            "credits": "IndiaFoxtEcho S-3 Viking over MegaSceneryEarth Florida + Fresh Scenery Florida Autogen, in Prepar3D + Oculus Rift + FlyInside. Clouds by ActiveSky 2016."
+        },
+        {
+            "id": "FL.S3Approach",
+            "region": "fl",
+            "type": 0,
+            "caption": "A S-3 Viking approaches Cape Canaveral",
+            "credits": "IndiaFoxtEcho S-3 Viking over MegaSceneryEarth Florida + Fresh Scenery Florida Autogen, in Prepar3D + Oculus Rift + FlyInside. Clouds by ActiveSky 2016."
+        },
+        {
+            "id": "FL.S3CanavApproach",
+            "region": "fl",
+            "type": 0,
+            "caption": "A S-3 Viking approaches Cape Canaveral",
+            "credits": "IndiaFoxtEcho S-3 Viking over MegaSceneryEarth Florida + Fresh Scenery Florida Autogen, in Prepar3D + Oculus Rift + FlyInside. Clouds by ActiveSky 2016."
+        },
+        {
+            "id": "NL.F86Town",
+            "region": "nl",
+            "type": 0,
+            "caption": "An F-86 over a Dutch town",
+            "credits": "Section F8 F-86 Sabre over MegaSceneryEarth Netherlands + Fresh Scenery Netherlands Autogen, in Prepar3D + Oculus Rift + FlyInside. Clouds by ActiveSky 2016."
+        },
+        {
+            "id": "NL.F86Flowers",
+            "region": "nl",
+            "type": 0,
+            "caption": "An F-86 over Dutch flower fields",
+            "credits": "Section F8 F-86 Sabre over MegaSceneryEarth Netherlands + Fresh Scenery Netherlands Autogen, in Prepar3D + Oculus Rift + FlyInside. Clouds by ActiveSky 2016."
+        },
+        {
+            "id": "NL.F86Country",
+            "region": "nl",
+            "type": 0,
+            "caption": "An F-86 over a Dutch coastal country",
+            "credits": "Section F8 F-86 Sabre over MegaSceneryEarth Netherlands + Fresh Scenery Netherlands Autogen, in Prepar3D + Oculus Rift + FlyInside. Clouds by ActiveSky 2016."
+        },
+        {
+            "id": "NL.F86Amsterdam",
+            "region": "nl",
+            "type": 0,
+            "caption": "Looking out of the cockpit of an F-86 near Amsterdam",
+            "credits": "Section F8 F-86 Sabre over MegaSceneryEarth Netherlands + Fresh Scenery Netherlands Autogen, in Prepar3D + Oculus Rift + FlyInside. Clouds by ActiveSky 2016."
+        },
+        {
+            "id": "NL.F86DAmsterdam",
+            "region": "nl",
+            "type": 0,
+            "caption": "An F-86 over downtown Amsterdam",
+            "credits": "Section F8 F-86 Sabre over MegaSceneryEarth Netherlands + Fresh Scenery Netherlands Autogen, in Prepar3D + Oculus Rift + FlyInside. Clouds by ActiveSky 2016."
         }
     ];
 
