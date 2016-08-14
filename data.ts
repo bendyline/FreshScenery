@@ -498,7 +498,7 @@ namespace FreshScenery
             "id": "NL.Beechfields",
             "region": "nl",
             "type": 0,
-            "caption": "A Beechcraft Bonanza flies into a thunderstorm over south Florida",
+            "caption": "A Beechcraft Bonanza flies over the pastoral Netherlands countryside",
             "credits": "Carenado Bonanza over MegaSceneryEarth Netherlands + Fresh Scenery Netherlands Autogen, in Prepar3D + Oculus Rift + FlyInside. Clouds by ActiveSky 2016."
         },
         {
@@ -541,28 +541,28 @@ namespace FreshScenery
             "region": "nl",
             "type": 0,
             "caption": "An F-86 over a Dutch town",
-            "credits": "Section F8 F-86 Sabre over MegaSceneryEarth Netherlands + Fresh Scenery Netherlands Autogen, in Prepar3D + Oculus Rift + FlyInside. Clouds by ActiveSky 2016."
+            "credits": "Section F8 F-86 Sabre over MegaSceneryEarth Netherlands + Fresh Scenery Netherlands Autogen, in Prepar3D + Oculus Rift + FlyInside."
         },
         {
             "id": "NL.F86Flowers",
             "region": "nl",
             "type": 0,
             "caption": "An F-86 over Dutch flower fields",
-            "credits": "Section F8 F-86 Sabre over MegaSceneryEarth Netherlands + Fresh Scenery Netherlands Autogen, in Prepar3D + Oculus Rift + FlyInside. Clouds by ActiveSky 2016."
+            "credits": "Section F8 F-86 Sabre over MegaSceneryEarth Netherlands + Fresh Scenery Netherlands Autogen, in Prepar3D + Oculus Rift + FlyInside."
         },
         {
             "id": "NL.F86Country",
             "region": "nl",
             "type": 0,
             "caption": "An F-86 over a Dutch coastal country",
-            "credits": "Section F8 F-86 Sabre over MegaSceneryEarth Netherlands + Fresh Scenery Netherlands Autogen, in Prepar3D + Oculus Rift + FlyInside. Clouds by ActiveSky 2016."
+            "credits": "Section F8 F-86 Sabre over MegaSceneryEarth Netherlands + Fresh Scenery Netherlands Autogen, in Prepar3D + Oculus Rift + FlyInside."
         },
         {
             "id": "NL.F86Amsterdam",
             "region": "nl",
             "type": 0,
             "caption": "Looking out of the cockpit of an F-86 near Amsterdam",
-            "credits": "Section F8 F-86 Sabre over MegaSceneryEarth Netherlands + Fresh Scenery Netherlands Autogen, in Prepar3D + Oculus Rift + FlyInside. Clouds by ActiveSky 2016."
+            "credits": "Section F8 F-86 Sabre over MegaSceneryEarth Netherlands + Fresh Scenery Netherlands Autogen, in Prepar3D + Oculus Rift + FlyInside."
         },
         {
             "id": "NL.F86DAmsterdam",
@@ -570,6 +570,111 @@ namespace FreshScenery
             "type": 0,
             "caption": "An F-86 over downtown Amsterdam",
             "credits": "Section F8 F-86 Sabre over MegaSceneryEarth Netherlands + Fresh Scenery Netherlands Autogen, in Prepar3D + Oculus Rift + FlyInside. Clouds by ActiveSky 2016."
+        },
+        {
+            "id": "IT.MB326Oliveto",
+            "region": "it",
+            "type": 0,
+            "caption": "An Aermacchi MB-326 tours over Giannutri island",
+            "credits": "Dino Cattaneo MB-326 over MegaSceneryEarth Italy + Fresh Scenery Italy Autogen, in Prepar3D + Oculus Rift + FlyInside."
+        },
+        {
+            "id": "IT.MB326Ercole",
+            "region": "it",
+            "type": 0,
+            "caption": "Looking back over mainland Italy near Porto Ercole",
+            "credits": "Dino Cattaneo MB-326 over MegaSceneryEarth Italy + Fresh Scenery Italy Autogen, in Prepar3D + Oculus Rift + FlyInside."
+        },
+        {
+            "id": "IT.MD500Valley",
+            "region": "it",
+            "type": 0,
+            "caption": "Looking towards the Duomo in the hills near Florence, Italy",
+            "credits": "Nemeth Designs MD-500 over MegaSceneryEarth Italy + Fresh Scenery Italy Autogen, in Prepar3D + Oculus Rift + FlyInside."
+        },
+        {
+            "id": "IT.MD500Florence",
+            "region": "it",
+            "type": 0,
+            "caption": "Flying over central Florence, Italy",
+            "credits": "Dino Cattaneo MB-326 over MegaSceneryEarth Italy + Fresh Scenery Italy Autogen, in Prepar3D + Oculus Rift + FlyInside."
+        },
+        {
+            "id": "IT.Bell412Lake",
+            "region": "it",
+            "type": 0,
+            "caption": "Down valleys and lakes of central Italy",
+            "credits": "Cera Sim Bell 412 over MegaSceneryEarth Italy + Fresh Scenery Italy Autogen, in Prepar3D + Oculus Rift + FlyInside."
+        },
+        {
+            "id": "IT.Bell412ValleyLake",
+            "region": "it",
+            "type": 0,
+            "caption": "A blue lake beckons in the distance, in a valley in central Italy",
+            "credits": "Cera Sim Bell 412 over MegaSceneryEarth Italy + Fresh Scenery Italy Autogen, in Prepar3D + Oculus Rift + FlyInside."
+        },
+        {
+            "id": "IT.Bell412Turn",
+            "region": "it",
+            "type": 0,
+            "caption": "A turn to the hills over central Italy",
+            "credits": "Cera Sim Bell 412 over MegaSceneryEarth Italy + Fresh Scenery Italy Autogen, in Prepar3D + Oculus Rift + FlyInside."
+        },
+        {
+            "id": "IT.Bell412Valleys",
+            "region": "it",
+            "type": 0,
+            "caption": "Picking up speed in a Bell 412 in central Italy",
+            "credits": "Cera Sim Bell 412 over MegaSceneryEarth Italy + Fresh Scenery Italy Autogen, in Prepar3D + Oculus Rift + FlyInside."
+        },
+        {
+            "id": "IT.Bell412Farms",
+            "region": "it",
+            "type": 0,
+            "caption": "Farms and hills of central Italy",
+            "credits": "Cera Sim Bell 412 over MegaSceneryEarth Italy + Fresh Scenery Italy Autogen, in Prepar3D + Oculus Rift + FlyInside."
+        },
+        {
+            "id": "CH.Bell412Hilltop",
+            "region": "ch",
+            "type": 0,
+            "caption": "Approaching a small farmhouse in Switzerland",
+            "credits": "Cera Sim Bell 412 over MegaSceneryEarth Switzerland + Fresh Scenery Switzerland Autogen, in Prepar3D + Oculus Rift + FlyInside."
+        },
+        {
+            "id": "FL.F14KeyWest",
+            "region": "nc",
+            "type": 0,
+            "caption": "Coming in for a landing on a small airfield on the outer banks of North Carolina.",
+            "credits": "Dino Cattaneo F-14 over MegaSceneryEarth North Carolina + Fresh Scenery North Carolina Autogen, in Prepar3D + Oculus Rift + FlyInside."
+        },
+        {
+            "id": "NC.F14LN",
+            "region": "nc",
+            "type": 0,
+            "caption": "An F-14 near Lake Norman, north of Charlotte",
+            "credits": "Dino Cattaneo F-14 over MegaSceneryEarth North Carolina + Fresh Scenery North Carolina Autogen, in Prepar3D + Oculus Rift + FlyInside. Clouds by ActiveSky 2016"
+        },
+        {
+            "id": "NC.F14LakeNorman",
+            "region": "nc",
+            "type": 0,
+            "caption": "View from the cockpit of a F-14 near Lake Norman, north of Charlotte",
+            "credits": "Dino Cattaneo F-14 over MegaSceneryEarth North Carolina + Fresh Scenery North Carolina Autogen, in Prepar3D + Oculus Rift + FlyInside. Clouds by ActiveSky 2016"
+        },
+        {
+            "id": "CA.F100SFA",
+            "region": "ca",
+            "type": 0,
+            "caption": "An F-100 climbs into the San Francisco fog",
+            "credits": "Milviz F-100 over MegaSceneryEarth San Francisco UltraRes + Fresh Scenery San Francisco Autogen, in Prepar3D + Oculus Rift + FlyInside. Clouds by ActiveSky 2016"
+        },
+        {
+            "id": "CA.F100SF",
+            "region": "ca",
+            "type": 0,
+            "caption": "An F-100 -- probably a bit low -- near Sutro Tower in central SF",
+            "credits": "Milviz F-100 over MegaSceneryEarth San Francisco UltraRes + Fresh Scenery San Francisco Autogen, in Prepar3D + Oculus Rift + FlyInside. Clouds by ActiveSky 2016"
         }
     ];
 
